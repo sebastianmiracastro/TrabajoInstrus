@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
+.MoveAss{
+    padding: 10px;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(2. 1fr);
@@ -104,7 +107,6 @@ body{
 }
 .content p{
     font-family: 'Economica', sans-serif;
-
 }
 .header{
     font-family: 'Economica', sans-serif; 
@@ -114,7 +116,7 @@ body{
     position:relative;
     top: -130px;
 }
-.header h1{
+.header .h1{
     color: rgb(235, 233, 233);
 }
 .container ul{
@@ -133,5 +135,24 @@ body{
     border: 1px solid #000000;
     text-decoration: none;
     background-color: rgb(235, 233, 233);
+}
+.move1{
+    position: relative;
+    left: 150px;
+}
+.move2{
+    position: relative;
+    left:600px;
+    top: -100px;
+}
+.header2 .h2{
+    font-family: 'Economica', sans-serif; 
+    padding: 5px;
+    text-align: center;
+    background-color: #000000 ;
+    position:relative;
+}
+.header2 h1{
+    color:rgb(235, 233, 233) ;
 }
 
