@@ -86,7 +86,7 @@ background: #0b76a6;
 #main-content {
     background: white;
     width: 90%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 20px auto;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
@@ -219,4 +219,59 @@ translateZ(300px);}
     box-sizing: border-box;
     position: relative;
     top: 100%;
+}
+.grid-containerCMMI{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+}
+.grid-itemCMMI{
+    padding: 5px;
+    justify-content: space-between;
+    border: solid 1px #333;
+    background-color: #666;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.grid-itemCMMI:hover{
+    filter: opacity(0.9);
+    transform: scale(1.3);
+}
+
+.grid-containerIEEE{
+    gap: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+.grid-itemIEEE{
+    padding: 5px;
+    justify-content: space-between;
+    border: solid 1px #333;
+    background-color: #666;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.grid-itemIEEE:hover{
+    filter: opacity(0.9);
+    transform: scale(1.3);
+}
+
+.grid-itemIEEEM{
+    padding: 5px;
+    justify-content: space-between;
+    border: solid 1px #333;
+    background-color: #666;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    grid-column: 1/4;
+}
+.grid-itemIEEEM:hover{
+    filter: opacity(0.9);
+    transform: scale(1.3);
 }
