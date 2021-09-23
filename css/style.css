@@ -1,184 +1,222 @@
-@import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
-@media (min-width: 1900px) {
-    .Cabeza{
-        position: relative;
-        top: -130px ;
-        background-color: #000000;
-        height: 50%;
-        width: 100%;
-        margin:auto;
-    }
-    .Cabez{
-        position: relative;
-        height:450px ;
-        padding: 20px;
-        display: block;
-        margin: auto;
-    }
-    .Search{
-        position: relative;
-        top: -420px;
-        left: 750px;
-    }
-    .lupa{
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        height: 20px;
-        background-color: #000000;
-    }
-    .botonHead{
-        background-color: #000000;
-        position: relative;
-        top: -445px;
-        left: 920px;
-    }
-    .logo{
-        position: relative;
-        top: -40px;
-        float: none;
-        padding: 4%;
-    }
-    .menu ul{
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        line-height: 40px;
-    }
-    .menu li{
-        position:relative;
-        left: 1100px;
-        top: -70px;
-        padding: 7px;
-        display: inline-block;
-        font-size: 25px;
-        background-color: black;
-        border-radius: 10px;
-        text-align: center;
-    }
-    .menu a{
-        text-decoration: none;
-        display: block;
-        color: white;
-    }
-    .menu a:hover{
-        background: rgba(67, 67, 196, 0.918);
-        color: #000000;
-    } 
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+	
+	padding-top: 80px; 
 }
-.container{
-    display: grid;
-    grid-template-columns: repeat(2. 1fr);
-    grid-template-rows: auto auto auto auto;
-    gap: 3em;
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
 }
-.Cabeza{
-    position: relative;
-    top: -130px ;
-    background-color: #000000;
-    height: 50%;
-    width: 100%;
-    margin:auto;
+
+p {
+	margin: 0 0 1.5em 0;
 }
-.Cabez{
-    position: relative;
-    height:450px ;
-    padding: 20px;
-    display: block;
-    margin: auto;
+
+img {
+	max-width: 100%;
+	height: auto;
 }
-.Search{
-    position: relative;
-    top: -420px;
-    left: 850px;
+
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+#main-header a {
+	color: white;
 }
-.lupa{
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 20px;
-    background-color: #000000;
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
 }
-.botonHead{
-    background-color: #000000;
-    position: relative;
-    top: -445px;
-    left: 1000px;
+#logo-header:hover {
+	color: #0b76a6;
 }
-.logo{
-    position: relative;
-    top: -40px;
-    float: none;
-    padding: 4%;
+
+#logo-header .site-name {
+	display: block;
+	font-weight: 700;
+	font-size: 1.2em;
 }
-.menu ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    line-height: 40px;
+
+#logo-header .site-desc {
+	display: block;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #999;
 }
-.menu li{
-    position:relative;
-    left: 1100px;
-    top: -70px;
-    padding: 7px;
-    display: inline-block;
-    font-size: 25px;
-    background-color: black;
-    border-radius: 10px;
+	
+
+nav {
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+	
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+}
+			
+nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+			
+nav ul li a:hover {
+background: #0b76a6;
+}
+#main-content {
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+                
+#main-content header,#main-content .content {
+    padding: 40px;
+}
+#main-footer {
+    background: #333;
+    color: white;
     text-align: center;
+    padding: 20px;
+    margin-top: 40px;
 }
-.menu a{
-    text-decoration: none;
-    display: block;
+#main-footer p {
+    margin: 0;
+}
+                        
+#main-footer a {
     color: white;
 }
-.menu a:hover{
-    background: rgba(67, 67, 196, 0.918);
-    color: #000000;
-} 
-.container .article1{
-    background-color: blue;
+#main-header {
+    background: #333;
+    color: white;
+    height: 80px;
+                            
+    width: 100%; 
+    left: 0; 
+                            
+    top: 0; 
+                            
+    position: fixed; 
+                        
 }
-/*.article1:hover{
-    border: 1px solid black;
-}*/
-.container .article2{
-    background-color: blueviolet;
+.content-all{
+    position: relative;
+    left: 150px;
+    margin-left: auto;
+    padding: auto;
+    width: 550px;
+    perspective: 1000px;
+    margin:auto;
+    margin-top: auto;
 }
-.container .article3{
-    background-color: burlywood;
-}
-.container .article4{
-    background-color: cadetblue;
-}
-.content h1{
-    font-family: 'Economica', sans-serif;
-    background-color: chartreuse;
-}
-.content p{
-    font-family: 'Economica', sans-serif;
+.content-carrousel{
+    width: 50%;
+    position: absolute;
+
+    animation: rotar 10s infinite;
+    transform-style: preserve-3d;
 
 }
-.header{
-    font-family: 'Economica', sans-serif; 
-    padding: 1px;
-    text-align: center;
-    background-color: #192 ;
+.content-carrousel:hover{
+    animation-play-state: paused;
 }
-.container ul{
-    text-decoration: none;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 110px;
-    gap: 1em;
+.content-carrousel figure{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    overflow:hidden;
+    box-shadow: 0px 0px 20px 0px black;
 }
-.container li{
-    text-align: center;
-    padding: 10px;
-    border: 1px solid #000000;
-    text-decoration: none;
+.content-carrousel figure:hover{
+    box-shadow: 0px 0px 0p 0px black;
+    transition: all 300ms;
+}
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg)
+translateZ(300px);}
+
+.content-carrousel figure:nth-child(2){transform: rotateY(51deg)
+translateZ(300px);}
+
+.content-carrousel figure:nth-child(3){transform: rotateY(102deg)
+translateZ(300px);}
+
+.content-carrousel figure:nth-child(4){transform: rotateY(154deg)
+translateZ(300px);}
+
+.content-carrousel figure:nth-child(5){transform: rotateY(204deg)
+translateZ(300px);}
+
+.content-carrousel figure:nth-child(6){transform: rotateY(256deg)
+translateZ(300px);}
+
+.content-carrousel figure:nth-child(7){transform: rotateY(306deg)
+translateZ(300px);}
+
+.content-carrousel figure:nth-child(8){transform: rotateY(360deg)
+translateZ(300px);}
+
+.content-carrousel img{
+    width: 100%;
+    transition: all 300ms;
+}
+.content-carrousel img:hover{
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
 }
 
+.containerpSpice{
+    width: 550px;
+    height: 500px;
+    background: url(/images/Spice1.jpg) no-repeat;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    box-shadow: 0 0 0 10px #f2f2f2,
+                0 0 0 11px #333,
+                0 20px 20px -12px #000;
+}
+.containerpSpice:hover p{
+    top: 0;
+    transition: all .4s;
+}
+.containerpSpice p{
+    margin: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.856);
+    color: #f2f2f2;
+    padding: 1em;
+    box-sizing: border-box;
+    position: relative;
+    top: 100%;
+}
