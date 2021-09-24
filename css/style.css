@@ -347,6 +347,12 @@ translateZ(300px);}
     border: 1px black solid;
 }
 @media screen and (max-width:576px) {
+
+    #main-header {
+        background: #333;
+        color: white;
+        height: 130px;
+    }	
     #main-content {
         background: white;
         width: 99%;
@@ -485,6 +491,33 @@ translateZ(300px);}
     }
 }
 @media screen and (max-width:700px){
+    #main-header {
+        background: #333;
+        color: white;
+        height: 120px;
+        text-align: center;
+    }	
+    #logo-header {
+        float: left;
+        padding: 15px 0 0 20px;
+        text-decoration: none;
+    }
+    #logo-header:hover {
+        color: #0b76a6;
+    }
+    
+    #logo-header .site-name {
+        display: block;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+    
+    #logo-header .site-desc {
+        display: block;
+        font-weight: 300;
+        font-size: 0.8em;
+        color: #999;
+    }
     #main-content {
         background: white;
         width: 90%;
@@ -622,7 +655,12 @@ translateZ(300px);}
         border: 1px black solid;
     }
 }
-@media screen and (max-width:1100px){
+@media screen and (max-width:1000px){
+    #main-header {
+        background: #333;
+        color: white;
+        height: 130px;
+    }	
     #main-content {
         background: white;
         width: 90%;
@@ -632,7 +670,7 @@ translateZ(300px);}
     }
             
     .content-all{
-        display: none;
+        /*display: none;*/
     }
     .containerpSpice{
         width: 360px;
